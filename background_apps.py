@@ -21,5 +21,5 @@ for process in p.process_iter():
 plt.figure(figsize=(15,7))
 plt.xlabel("Application")
 plt.ylabel("Max CPU Usage")
-plt.bar(app_name_dict, max_min_list, color=("red", "yellow", "green", "purple", "orange", "pink"))
+plt.bar(name_list, max_min_list, color=("red", "yellow", "green", "purple", "orange", "pink"))
 plt.show()
